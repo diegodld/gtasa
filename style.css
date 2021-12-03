@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Yuji+Boku&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Khand&family=Yuji+Boku&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+#central ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#220101 ;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+}
+
+li {
+    display: inline-block;
+   
+    
+}
+
+
+
+a {
+    display: flex;
+    background-color: #220101;
+    font-family: "Yuji Boku", serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+li a:hover {
+    background-color: #570606;
+}
+
+.active {
+    background-color: #04aa6d;
+}
+
+#central {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    text-align: center;
+}
+
+#gta {
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 100%;
+}
+
+#gameplay {
+    position: relative;
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+
+body {
+    display: inline;
+    background-color: black;
+    width: 100vw;
+    height: 100vw;
+    justify-content: center;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    font-family: "Yuji Boku", serif;
+    width: auto;
+}
+
+#content {
+    position: relative;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    font-family: "Khand", sans-serif;
+    font-size: 18px;
+    width: 50%;
+    
+}
+
+.bt_download {
+    display: flex;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    width: 90%;
+    margin: 20px;
+    padding: 10px;
+    font-family: 'Anton', sans-serif;
+    font-size: 70px;
+    font-weight: bold;
+    font-style: italic;
+    border-radius: 10px;
+    background-color: #220101;
+    box-shadow: 0 5px 0 5px#110202;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    border: none;
+}
+
+.bt_download:hover {
+    background-color: #570606;
+}
+
+.bt_download:active {
+    position: relative;
+    top: 5px;
+    box-shadow: none;
+}
+
+#bt {
+    display: inline;
+    text-decoration: none;
+}
+
+.screenshots img{
+  width: 210px;  
+padding: 5px;
+cursor: pointer;
+}
+
+
+
+footer{
+    display: block;
+    color: white;
+    text-align: center;
+     margin-top: 25px;
+    background-color: rgb(22, 21, 21);
+    width: 100%;
+}
